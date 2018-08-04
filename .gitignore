@@ -21,11 +21,11 @@ coverage
 .grunt
 
 # Compiled Dirs (http://nodejs.org/api/addons.html)
-proxy/public/app1.prox.js
-proxy/public/app2.prox.js
-proxy/public/app3.prox.js
-proxy/public/prox.js
-
 yalp-gallery-service/
 yalp-header-service/
 yalp-reviews-service/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
