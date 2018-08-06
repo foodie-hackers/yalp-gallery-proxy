@@ -1,4 +1,6 @@
 branch-defaults:
+  master:
+    environment: yalp-proxy-env
   setup:
     environment: yalp-proxy-env
     group_suffix: null
